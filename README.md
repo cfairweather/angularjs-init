@@ -27,4 +27,4 @@ Your data is now available in your controller.
 
     .controller('UsersCtrl', ['$scope', function($scope){
       console.log($scope.users);
-    };
+    }]);
