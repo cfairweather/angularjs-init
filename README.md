@@ -3,6 +3,11 @@ angularjs-init
 
 angularjs-init directive for AngularJS
 
+
+License
+======
+This code is under [WTFPL](http://www.wtfpl.net/).
+
 About
 ======
 This module allows developers to initialize some of their data on a rendered page (as one may do with many server backed web stacks). The data inside of this directive is parsed as JSON an automatically included on a controller's scope before the scope runs. We thereby avoid the nasty habit of global variables and pulling them into a controller manually. 
@@ -11,7 +16,7 @@ This module allows developers to initialize some of their data on a rendered pag
 Example Usage
 ================
 
-In your module, import 'angular-json-rpc':
+In your module, import 'angularjs-init':
         
         angular.module('test-module-angularjs-init', ['angularjs-init'])
 
